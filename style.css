@@ -180,6 +180,11 @@ img {
 	display: inline-block;
 	padding: 2px;
 }
+.gallery-icon img {
+	max-width: 300px;
+    width: 100%;
+    height: auto;
+}
 
 
 
