@@ -57,7 +57,9 @@ hr {
     background-image: url('images/subpage-head-border-hr.png');
     background-repeat: no-repeat;
 }
-
+img {
+	border: 0!important; /* Get rid of gallery image border */
+}
 
 /* Page Structure */
 
