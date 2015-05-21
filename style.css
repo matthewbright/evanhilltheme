@@ -172,12 +172,13 @@ hr {
 /* Gallery and Index Pages */
 
 .gallery-icon {
-	background-image: url("images/300square-box.png");
-	background-size: 100%;
+	background-image: url("images/300square-box-wide.png");
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	width: 400px;
-	height: 400px;
+	display: inline-block;
+	padding: 2px;
 }
+
 
 
 /* Basic Pages */
@@ -187,7 +188,7 @@ hr {
 }
 
 .page-content img {
-	background-image: url('images/300square-box.png');
+	background-image: url('images/300square-box-wide.png');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	padding: 2px;
