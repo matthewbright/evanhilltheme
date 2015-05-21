@@ -1,4 +1,4 @@
-<header class="show-header">
+<header class="show-header row">
 	<div class="row">
 		<div class="col-sm-12 meta show-name">
 			<h2 class="single-title"><?php the_title(); ?></h2>
