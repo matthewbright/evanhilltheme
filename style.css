@@ -192,7 +192,7 @@ img {
 }
 .gallery-caption {
 	position: absolute;
-	bottom: 2px;
+	bottom: 17px;
 	left: 19px;
 	right: 20px;
 	background-color: rgba(50, 50, 50, 0.6);
