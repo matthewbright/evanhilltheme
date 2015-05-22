@@ -66,6 +66,7 @@ img {
 #wrapper {
 	max-width: 1000px;
 	margin: 0 auto;
+	padding: 0 15px;
 }
 
 
@@ -193,11 +194,14 @@ img {
 .gallery-caption {
 	position: absolute;
 	bottom: 17px;
-	left: 19px;
-	right: 20px;
-	background-color: rgba(50, 50, 50, 0.6);
+	left: 17px;
+	right: 17px;
+	background-color: rgba(50, 50, 50, 0.8);
+	opacity: 0;
 }
-
+.gallery-icon:hover + .gallery.caption {
+	opacity: 1;
+}
 
 /* Basic Pages */
 .page-content {
