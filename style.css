@@ -198,8 +198,13 @@ img {
 	right: 17px;
 	background-color: rgba(50, 50, 50, 0.8);
 	opacity: 0;
+	pointer-events: none;
+	transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
 }
-.gallery-icon:hover + .gallery.caption {
+.gallery-caption:hover, .gallery-icon:hover + .gallery-caption {
 	opacity: 1;
 }
 
