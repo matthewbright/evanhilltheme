@@ -172,6 +172,10 @@ img {
 }
 
 /* Gallery and Index Pages */
+.gallery-item {
+	position: relative;
+	overflow: hidden;
+}
 
 .gallery-icon {
 	background-image: url("images/300square-box-wide.png");
@@ -185,7 +189,13 @@ img {
     width: 100%;
     height: auto;
 }
-
+.gallery-caption {
+	position: absolute;
+	bottom: 17px;
+	left: 20px;
+	right: 20px;
+	background-color: rgba(50, 50, 50, 0.6);
+}
 
 
 /* Basic Pages */
