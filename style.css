@@ -206,7 +206,7 @@ img {
     -moz-transition: opacity .5s ease-out;
     -webkit-transition: opacity .5s ease-out;
     -o-transition: opacity .5s ease-out;
-    linear-gradient(to bottom, rgba(50, 50, 50, 0), rgba(50, 50, 50, 0.8));
+    background: linear-gradient(to bottom, rgba(50, 50, 50, 0), rgba(50, 50, 50, 0.8));
 }
 .gallery-caption:hover, .gallery-icon:hover + .gallery-caption {
 	opacity: 1;
