@@ -1,0 +1,237 @@
+/*
+Theme Name: Evan Hill Theme April 2015
+Author: Matthew Bright
+Author URI: http://design.matthewbright.net
+Description: Started from BlankSlate by TidyThemes. Built on Bootstrap grid.
+Version: 1.1.1
+
+Evan Hill Theme © 2015 Matthew Bright
+*/
+
+
+/* FONT DEFINITIONS */
+
+@font-face {
+    font-family: 'maxine_scriptregular';
+    src: url('fonts/maxine/maxine-webfont.eot');
+    src: url('fonts/maxine/maxine-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/maxine/maxine-webfont.woff2') format('woff2'),
+         url('fonts/maxine/maxine-webfont.woff') format('woff'),
+         url('fonts/maxine/maxine-webfont.ttf') format('truetype'),
+         url('fonts/maxine/maxine-webfont.svg#maxine_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+		font-family: "scrfibble-regular";
+		src: url("fonts/scrfibble/scrfibble-regular.eot");
+		src: url("fonts/scrfibble/scrfibble-regular.otf") format("opentype"),
+			 url("fonts/scrfibble/scrfibble-regular.woff") format("woff"),
+			 url("fonts/scrfibble/scrfibble-regular.svg") format("svg");
+	}
+
+
+/* GLOBAL */
+
+body {
+	background-image: url("images/slate-bg.jpg");
+	background-color: #151515;
+	font-family: 'scrfibble-regular';
+	font-size: 24px;
+	color: #eee;
+	letter-spacing: 1px;
+}
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+hr {
+	display: block;
+    border: 0px;
+    height: 3px;
+    background-image: url('images/subpage-head-border-hr.png');
+    background-repeat: no-repeat;
+}
+img {
+	border: 0!important; /* Get rid of gallery image border */
+}
+
+/* Page Structure */
+
+#wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+
+/* Page Header */
+
+#header {
+	background-image: url("images/subpage-head-border.png");
+	background-repeat: no-repeat;
+	background-size: 100% 140px;
+	margin-top: 20px;
+	height: 140px;
+}
+#branding {
+	padding: 5px 25px;
+}
+#menu {
+	background-image: url("images/hr.png");
+	background-repeat: no-repeat;
+	background-size: 100% 3px;
+	padding: 10px 25px;
+	font-size: 1.1em;
+	text-transform: lowercase;
+}
+#site-title {
+	display: inline-block;
+	position: relative;
+}
+#header h1 {
+	font-family: 'maxine_scriptregular';
+	font-size: 2.5em;
+	font-weight: normal;
+	text-decoration: none;
+	position: relative;
+	top: 3px;
+	line-height: 1;
+	margin: 0 15px 10px 0;
+}
+#header h1 a {
+	color: #fff;
+}
+#header h1 a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+#site-description {
+	font-size: 1.4em;
+	display: inline-block;
+	color: #56cfdd;
+	text-transform: lowercase;
+}
+#menu ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#menu li {
+	display: inline-block;
+	padding-right: 20px;
+}
+#menu a {
+	color: #fff;
+	text-decoration: none;
+}
+#menu a:hover {
+	text-decoration: none;
+	color: #ff0000;
+}
+#menu .current-menu-item a {
+	color: #00ff00;
+}
+#menu .menu-red a:hover, #menu .menu-red.current-menu-item a {
+	color: #ff0000;
+}
+#menu .menu-green a:hover, #menu .menu-green.current-menu-item a {
+	color: #00ff00;
+}
+#menu .menu-blue a:hover, #menu .menu-blue.current-menu-item a {
+	color: #0066ff;
+}
+#menu .menu-yellow a:hover, #menu .menu-yellow.current-menu-item a {
+	color: #ffff00;
+}
+#menu .menu-magenta a:hover, #menu .menu-magenta.current-menu-item a {
+	color: #ff00ff;
+}
+#menu .menu-orange a:hover, #menu .menu-orange.current-menu-item a {
+	color: #ff5500;
+}
+
+
+/* Footer */
+#footer {
+	letter-spacing: 2px;
+}
+#footer #copyright {
+	font-size: 0.6em;
+	text-align: right;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	color: #888;
+}
+#footer #email {
+	font-size: 0.8em;
+}
+
+/* Gallery and Index Pages */
+.gallery-item {
+	position: relative;
+	overflow: hidden;
+	padding: 15px;
+}
+
+.gallery-icon {
+	background-image: url("images/300square-box-wide.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: inline-block;
+	padding: 2px;
+}
+.gallery-icon img {
+	max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+.gallery-caption {
+	font-size: 0.8em;
+	color: #ddd;
+	padding: 5px;
+	position: absolute;
+	bottom: 17px;
+	left: 17px;
+	right: 17px;
+	background-color: rgba(50, 50, 50, 0.8);
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+.gallery-caption:hover, .gallery-icon:hover + .gallery-caption {
+	opacity: 1;
+}
+
+/* Basic Pages */
+.page-content {
+	margin: 0 2px;
+	color: #d5d5d5;
+}
+
+.page-content img {
+	background-image: url('images/300square-box-wide.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 2px;
+}
+
+
+/* Posts */
+
+#show-header {
+	background-image: url('images/show-info-border.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+}
+
+
