@@ -39,7 +39,7 @@ body {
 	background-color: #151515;
 	font-family: 'scrfibble-regular';
 	font-size: 24px;
-	color: #fff;
+	color: #eee;
 	letter-spacing: 1px;
 }
 .alignleft {
@@ -192,6 +192,9 @@ img {
     height: auto;
 }
 .gallery-caption {
+	font-size: 0.8em;
+	color: #ddd;
+	padding: 5px;
 	position: absolute;
 	bottom: 17px;
 	left: 17px;
