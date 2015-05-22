@@ -175,6 +175,7 @@ img {
 .gallery-item {
 	position: relative;
 	overflow: hidden;
+	padding: 15px;
 }
 
 .gallery-icon {
@@ -191,8 +192,8 @@ img {
 }
 .gallery-caption {
 	position: absolute;
-	bottom: 17px;
-	left: 20px;
+	bottom: 2px;
+	left: 19px;
 	right: 20px;
 	background-color: rgba(50, 50, 50, 0.6);
 }
