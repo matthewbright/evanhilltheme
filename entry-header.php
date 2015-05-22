@@ -5,13 +5,13 @@
 				<h2 class="single-title"><?php the_title(); ?></h2>
 			</div>
 			<div class="meta" id="show-info-top">
-				<div class="meta col-sm-6" id="show-info-top-left">
+				<div class="meta" id="show-info-top-left">
 					<?php $scompany = get_post_meta( $post->ID, '_mb_show_company', true );
 						if ($scompany) { ?>
 							<p class="show-company"><?php echo $scompany; ?></p>
 					<?php } ?>
 				</div> 
-				<div class="meta col-sm-6" id="show-info-top-right">
+				<div class="meta" id="show-info-top-right">
 					<?php $position = get_post_meta( $post->ID, '_mb_show_position', true );
 						if ($position) { ?>
 							<p class="show-position"><?php echo $position; ?></p>
@@ -19,7 +19,7 @@
 				</div>
 			</div>
 			<div class="meta" id="show-info-bottom">
-				<div class="meta col-sm-6" id="show-info-bottom-left">
+				<div class="meta" id="show-info-bottom-left">
 					<?php $creditl1 = get_post_meta( $post->ID, '_mb_show_creditl1', true );
 						if ($creditl1) { ?>
 							<p class="show-credit"><?php echo $creditl1; ?></p>
@@ -33,7 +33,7 @@
 							<p class="show-credit"><?php echo $creditl3; ?></p>
 					<?php } ?>
 				</div>
-				<div class="meta col-sm-6" id="show-info-bottom-right">
+				<div class="meta" id="show-info-bottom-right">
 					<?php $creditr1 = get_post_meta( $post->ID, '_mb_show_creditr1', true );
 						if ($creditr1) { ?>
 							<p class="show-credit"><?php echo $creditr1; ?></p>
