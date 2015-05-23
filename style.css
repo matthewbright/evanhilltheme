@@ -232,6 +232,9 @@ img {
 
 /* Posts */
 
+#show-header {
+	margin-top: 30px;
+}
 .show-info {
 	background-image: url('images/show-info-border.png');
 	background-size: 100% 100%;
@@ -239,7 +242,7 @@ img {
 
 }
 .meta p {
-	margin: 0;
+	margin: 8px 0;
 }
 #show-info-top-left, #show-info-top-right, #show-info-bottom-left, #show-info-bottom-right {
 	display: inline-block;
@@ -248,16 +251,16 @@ img {
 	text-transform: uppercase;
 }
 #show-info-top-left {
-	font-size: 0.7em;
+	font-size: 0.8em;
 }
 #show-info-top-right {
-	font-size: 0.7em;
+	font-size: 0.8em;
 }
 #show-info-bottom-left {
-	font-size: 0.6em;
+	font-size: 0.7em;
 }
 #show-info-bottom-right {
-	font-size: 0.6em;
+	font-size: 0.7em;
 }
 #show-info-top {
 	background-image: url('images/show-info-top-grid.png');
