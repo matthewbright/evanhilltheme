@@ -278,6 +278,10 @@ img {
 	background-repeat: no-repeat;
 	margin: 0 2px;
 }
+#show-info-bottom::after {
+	display: block;
+	height: 2px;
+}
 
 #show-name {
 	padding: 7px 25px 0px 25px;
