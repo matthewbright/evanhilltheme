@@ -234,5 +234,10 @@ img {
 	background-repeat: no-repeat;
 
 }
-
+.meta {
+	display: inline-block;
+}
+#show-info-top-left, #show-info-top-right, #show-info-bottom-left, #show-info-bottom-right {
+	width: 50%;
+}
 
