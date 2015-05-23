@@ -1,5 +1,5 @@
 <section class="entry-content row">
-	<div class="not-col-sm-12"> <!-- Bypassing column for gallery width display -->
+	<div class="col-sm-12">
 		<?php the_content(); ?>
 		<div class="entry-links"><?php wp_link_pages(); ?></div>
 	</div> 

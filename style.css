@@ -58,7 +58,7 @@ hr {
 	display: block;
     border: 0px;
     height: 3px;
-    background-image: url('images/subpage-head-border-hr.png');
+    background-image: url('images/hr.png');
     background-repeat: no-repeat;
 }
 img {
@@ -177,6 +177,9 @@ img {
 }
 
 /* Gallery and Index Pages */
+.gallery {
+	margin: 0 -15px 0 -25px!important;
+}
 .gallery-item {
 	position: relative;
 	overflow: hidden;
@@ -234,6 +237,7 @@ img {
 
 #show-header {
 	margin-top: 30px;
+	margin-bottom: 30px;
 }
 .show-info {
 	background-image: url('images/show-info-border.png');

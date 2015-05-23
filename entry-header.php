@@ -1,5 +1,5 @@
-<header class = "row" id="show-header">
-	<div class="col-sm-12">
+<header class = "row">
+	<div class="col-sm-12" id="show-header">
 		<div class="meta show-info">
 			<div class="meta" id="show-name">
 				<h2 class="single-title"><?php the_title(); ?></h2>
