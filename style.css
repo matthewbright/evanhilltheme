@@ -239,6 +239,15 @@ img {
 }
 #show-info-top-left, #show-info-top-right, #show-info-bottom-left, #show-info-bottom-right {
 	display: inline-block;
-	width: 50%;
+	width: 49%;
 }
-
+#show-info-top {
+	background-image: url('images/show-info-top-grid.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#show-info-bottom {
+	background-image: url('images/show-info-bottom-grid.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
