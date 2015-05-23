@@ -279,6 +279,8 @@ img {
 	margin: 0 2px;
 }
 #show-info-bottom::after {
+	content: "&nbsp;";
+	overflow: hidden;
 	display: block;
 	height: 2px;
 }
