@@ -164,6 +164,7 @@ img {
 /* Footer */
 #footer {
 	letter-spacing: 2px;
+	font-family: 'Architects Daughter';
 }
 #footer #copyright {
 	font-size: 0.6em;
@@ -178,12 +179,12 @@ img {
 
 /* Gallery and Index Pages */
 .gallery {
-	margin: 0 -15px 0 -25px!important;
+	margin: 0 -25px 0 -15px!important;
 }
 .gallery-item {
 	position: relative;
 	overflow: hidden;
-	padding: 15px;
+	padding: 0 15px;
 }
 
 .gallery-icon {
