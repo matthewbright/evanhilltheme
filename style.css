@@ -278,10 +278,8 @@ img {
 	background-repeat: no-repeat;
 	margin: 0 2px;
 }
-#show-info-bottom::after {
-	content: "&nbsp;";
+.grid-bottom-margin {
 	overflow: hidden;
-	display: block;
 	height: 2px;
 }
 

@@ -48,6 +48,8 @@
 					<?php } ?>
 				</div>
 			</div>
+			<div class="grid-bottom-margin">
+			</div>
 		</div>
 	</div>
 </header>
