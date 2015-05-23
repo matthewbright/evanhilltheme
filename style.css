@@ -42,6 +42,9 @@ body {
 	color: #eee;
 	letter-spacing: 1px;
 }
+p {
+	font-family: 'Architects Daughter';
+}
 .alignleft {
 	float: left;
 	margin-right: 15px;
@@ -241,18 +244,19 @@ img {
 	display: inline-block;
 	width: 49%;
 	padding: 5px 25px;
+	text-transform: uppercase;
 }
 #show-info-top {
 	background-image: url('images/show-info-top-grid.png');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	margin: 2px;
+	margin: 0 2px;
 }
 #show-info-bottom {
 	background-image: url('images/show-info-bottom-grid.png');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	margin: 2px;
+	margin: 0 2px;
 }
 
 #show-name {
@@ -260,4 +264,5 @@ img {
 }
 #show-name h2 {
 	margin: 0;
+	font-size: 2em;
 }
