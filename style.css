@@ -234,8 +234,8 @@ img {
 	background-repeat: no-repeat;
 
 }
-.meta {
-	
+.meta p {
+	margin: 0;
 }
 #show-info-top-left, #show-info-top-right, #show-info-bottom-left, #show-info-bottom-right {
 	display: inline-block;
@@ -245,9 +245,18 @@ img {
 	background-image: url('images/show-info-top-grid.png');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
+	margin: 2px;
 }
 #show-info-bottom {
 	background-image: url('images/show-info-bottom-grid.png');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
+	margin: 2px;
+}
+
+#show-name {
+	padding: 7px 25px 0px 25px;
+}
+#show-name h2 {
+	margin: 0;
 }
