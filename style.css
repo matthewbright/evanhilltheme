@@ -44,6 +44,7 @@ body {
 }
 p {
 	font-family: 'Architects Daughter';
+	font-size: 0.75em;
 }
 .alignleft {
 	float: left;
@@ -245,6 +246,18 @@ img {
 	width: 49%;
 	padding: 5px 25px;
 	text-transform: uppercase;
+}
+#show-info-top-left {
+	font-size: 0.7em;
+}
+#show-info-top-right {
+	font-size: 0.7em;
+}
+#show-info-bottom-left {
+	font-size: 0.6em;
+}
+#show-info-bottom-right {
+	font-size: 0.6em;
 }
 #show-info-top {
 	background-image: url('images/show-info-top-grid.png');
