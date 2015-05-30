@@ -4,9 +4,9 @@
 		<?php get_template_part('entry', 'header'); ?>
 		<?php get_template_part('entry', (is_archive() || is_search() ? 'summary' : 'content')); ?>
 	<?php else : ?>
-<article id="post-<?php the_ID(); ?>" class="post-full-tile gallery-item">
+<article id="post-<?php the_ID(); ?>" class="post-full-tile">
 				<?php if ( has_post_thumbnail() ) { ?>
-					<div class="post-thumbnail-box">
+					<div class="post-thumbnail-box gallery-icon">
 						<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" rel="bookmark">
 						<?php the_post_thumbnail('post-thumbnail', array( 'class'	=> "img-responsive attachment-post-thumbnail")); ?>
 						</a>
