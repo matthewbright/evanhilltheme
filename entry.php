@@ -8,7 +8,7 @@
 				<?php if ( has_post_thumbnail() ) { ?>
 					<dt class="post-thumbnail-box gallery-icon">
 						<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" rel="bookmark">
-						<?php the_post_thumbnail('post-thumbnail', array( 'class'	=> "img-responsive attachment-post-thumbnail")); ?>
+						<?php the_post_thumbnail('gallery-thumbnail', array( 'class'	=> "img-responsive attachment-post-thumbnail")); ?>
 						</a>
 					</dt>
 					<dd class="tile-meta gallery-caption">
