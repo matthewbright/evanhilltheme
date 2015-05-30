@@ -291,3 +291,23 @@ img {
 	margin: 0;
 	font-size: 2em;
 }
+
+
+
+
+/* Gallery import */
+
+			.gallery {
+				margin: auto;
+			}
+			.gallery-item {
+				float: left;
+				margin-top: 10px;
+				text-align: center;
+				width: 33%;
+			}
+			.gallery-caption {
+				margin-left: 0;
+			}
+			/* see gallery_shortcode() in wp-includes/media.php */
+
