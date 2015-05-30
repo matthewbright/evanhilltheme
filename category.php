@@ -2,7 +2,7 @@
 <div class="row">
 <section id="content" role="main" class="col-sm-12">
 	<header class="header">
-		<h1 class="entry-title"><?php single_cat_title(); ?></h1>
+		<!-- no title <h1 class="entry-title"> --> <?php /*single_cat_title(); */?> <!-- </h1> -->
 		<?php if ( '' != category_description() ) echo apply_filters('archive_meta', '<div class="archive-meta">' . category_description() . '</div>'); ?>
 	</header>
 	<div class="gallery">

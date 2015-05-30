@@ -227,14 +227,14 @@ img {
 	text-transform: uppercase;
 }
 .tile-meta .show-company {
-	font-size: 0.8em;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	font-size: 0.6em;
+	margin-top: 3px;
+	margin-bottom: 3px;
 }
 .tile-meta .show-position {
-	font-size: 0.8em;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	font-size: 0.6em;
+	margin-top: 3px;
+	margin-bottom: 3px;
 }
 
 /* Basic Pages */
