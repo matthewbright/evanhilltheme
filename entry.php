@@ -4,7 +4,7 @@
 		<?php get_template_part('entry', 'header'); ?>
 		<?php get_template_part('entry', (is_archive() || is_search() ? 'summary' : 'content')); ?>
 	<?php else : ?>
-<dl id="post-<?php the_ID(); ?>" class="post-full-tile">
+<dl id="post-<?php the_ID(); ?>" class="post-full-tile gallery-item">
 				<?php if ( has_post_thumbnail() ) { ?>
 					<dt class="post-thumbnail-box gallery-icon">
 						<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" rel="bookmark">

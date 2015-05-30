@@ -7,9 +7,7 @@
 	</header>
 	<div class="gallery">
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-			<div class="gallery-item">
 				<?php get_template_part('entry'); ?>
-			</div> <!-- gallery-item -->
 		<?php endwhile; endif; ?>
 	</div> <!-- gallery -->
 	<?php get_template_part('nav', 'below'); ?>
