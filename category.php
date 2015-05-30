@@ -10,8 +10,9 @@
 				<?php get_template_part('entry'); ?>
 		<?php endwhile; endif; ?>
 	</div> <!-- gallery -->
-	<?php get_template_part('nav', 'below'); ?>
+
 </section>
 </div>
+<br style="clear: both">
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
