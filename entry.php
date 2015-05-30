@@ -12,7 +12,7 @@
 						</a>
 					</dt>
 					<dd class="tile-meta gallery-caption">
-						<?php the_title(); ?>
+						<p class="show-title"><?php the_title(); ?></p>
 						<?php $scompany = get_post_meta( $post->ID, '_mb_show_company', true );
 						if ($scompany) { ?>
 							<p class="show-company"><?php echo $scompany; ?></p>

@@ -223,6 +223,20 @@ img {
 	opacity: 1;
 }
 
+.tile-meta {
+	text-transform: uppercase;
+}
+.tile-meta .show-company {
+	font-size: 0.8em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.tile-meta .show-position {
+	font-size: 0.8em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
 /* Basic Pages */
 .page-content {
 	margin: 0 2px;
