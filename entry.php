@@ -11,6 +11,10 @@
 						<?php the_post_thumbnail('post-thumbnail', array( 'class'	=> "img-responsive attachment-post-thumbnail")); ?>
 						</a>
 						<div class="tile-meta">
+							<?php $scompany = get_post_meta( $post->ID, '_mb_show_company', true );
+						if ($scompany) { ?>
+							<p class="show-company"><?php echo $scompany; ?></p>
+					<?php } ?>
 							<?php $writer1 = get_post_meta( $post->ID, '_mb_show_writer1', true );
 							if ($writer1) { ?>
 								<p class="show-writer"><?php echo $writer1; ?></p>
