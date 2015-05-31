@@ -351,6 +351,7 @@ img {
 input, select, textarea {
 	font-size: 0.8em;
 	background-color: #444;
+	border-width: 0px;
 }
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
 	background-color: #428bca;
@@ -358,7 +359,10 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 0.9em;
+	border-width: 2px;
 }
-
+.wpcf7-not-valid-tip {
+	font-size: 0.7px;
+}
 
 
