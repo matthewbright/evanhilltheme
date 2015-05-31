@@ -64,6 +64,9 @@ hr {
 img {
 	border: 0!important; /* Get rid of gallery image border */
 }
+#sidebar {
+	font-size: 0.6em;
+}
 
 /* Page Structure */
 
@@ -289,9 +292,11 @@ img {
 }
 #show-info-bottom-left {
 	font-size: 0.7em;
+	vertical-align: top;
 }
 #show-info-bottom-right {
 	font-size: 0.7em;
+	vertical-align: top;
 }
 #show-info-top {
 	background-image: url('images/show-info-top-grid.png');
@@ -336,4 +341,24 @@ img {
 				margin-left: 0;
 			}
 			/* see gallery_shortcode() in wp-includes/media.php */
+
+
+/* Form */
+
+.wpcf7 {
+	font-size: 0.8em;
+}
+input, select, textarea {
+	font-size: 0.8em;
+	background-color: #444;
+}
+button {
+	background-color: #428bca;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 0.9em;
+}
+
+
 
