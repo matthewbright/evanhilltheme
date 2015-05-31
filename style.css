@@ -192,7 +192,16 @@ img {
 #home-header #site-description {
 	font-size: 1.6em;
 }
-
+#homecarousel {
+	background-image: url("images/carousel-border.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 2px;
+}
+.carousel-inner>.item {
+	-webkit-transition: all 2s ease;
+	transition: all 2s ease;
+}
 
 /* Footer */
 #footer {
