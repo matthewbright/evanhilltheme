@@ -219,6 +219,9 @@ img {
 .carousel-fade .carousel-control {
   z-index: 2;
 }
+.carousel-control {
+	width: 0;
+}
 
 /* Footer */
 #footer {
