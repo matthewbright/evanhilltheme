@@ -24,21 +24,12 @@
 					    ++$posts_count; ?>
 						<div class="item <?php if($posts_count == 0) { ?>active<?php } ?>">
 							<a href="<?php the_permalink(); ?>"><?php 
-if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
-	the_post_thumbnail();
-} 
-?></a>
+							if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+								the_post_thumbnail();
+							} ?></a>
 							<div class="carousel-caption">
-													<p class="show-title"><?php the_title(); ?></p>
-						<?php $scompany = get_post_meta( $post->ID, '_mb_show_company', true );
-						/* if ($scompany) { ?>
-							<p class="show-company"><?php echo $scompany; ?></p>
-						<?php } ?>
-						<?php $position = get_post_meta( $post->ID, '_mb_show_position', true );
-						if ($position) { ?>
-							<p class="show-position"><?php echo $position; ?></p>
-						<?php } */ ?>	
-								
+								<p class="show-title"><?php the_title(); ?></p>
+								<?php $scompany = get_post_meta( $post->ID, '_mb_show_company', true ); ?>
 							</div>
 						</div>
 					<?php } wp_reset_postdata(); ?>
