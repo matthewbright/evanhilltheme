@@ -31,14 +31,14 @@ if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned
 							<div class="carousel-caption">
 													<p class="show-title"><?php the_title(); ?></p>
 						<?php $scompany = get_post_meta( $post->ID, '_mb_show_company', true );
-						if ($scompany) { ?>
+						/* if ($scompany) { ?>
 							<p class="show-company"><?php echo $scompany; ?></p>
 						<?php } ?>
 						<?php $position = get_post_meta( $post->ID, '_mb_show_position', true );
 						if ($position) { ?>
 							<p class="show-position"><?php echo $position; ?></p>
-						<?php } ?>	
-								<a href="<?php the_permalink(); ?>" rel="bookmark"><span class="tile-link"></span></a>
+						<?php } */ ?>	
+								
 							</div>
 						</div>
 					<?php } wp_reset_postdata(); ?>

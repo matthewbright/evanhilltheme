@@ -225,10 +225,17 @@ img {
 .carousel-caption {
 	pointer-events: none;
 	background: linear-gradient(to bottom, rgba(50, 50, 50, 0), rgba(50, 50, 50, 0.8));
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 0 15px;
+	text-align: left;
 }
 .carousel-indicators {
 	width: 100%;
 	text-align: right;
+	margin-left: 0;
+	margin-right: 15px;
 }
 
 /* Footer */
