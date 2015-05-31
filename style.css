@@ -218,6 +218,7 @@ img {
 }
 .post-full-tile .gallery-caption {
 	bottom: 12px;
+	padding-top: 80px;
 }
 .gallery-caption:hover, .gallery-icon:hover + .gallery-caption {
 	opacity: 1;
@@ -236,6 +237,13 @@ img {
 	margin-top: 3px;
 	margin-bottom: 3px;
 }
+.cat-archive-container {
+	margin-top: 30px;
+}
+.cat-archive-container .gallery-item {
+	margin-top: 10px;
+}
+
 
 /* Basic Pages */
 .page-content {
