@@ -228,14 +228,17 @@ img {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	padding: 0 15px;
+	padding: 0 30px;
 	text-align: left;
 }
 .carousel-indicators {
 	width: 100%;
 	text-align: right;
-	margin-left: 0;
-	margin-right: 15px;
+	margin: 18 0;
+	padding-right: 30px;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
 
 /* Footer */
