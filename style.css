@@ -82,10 +82,9 @@ img {
 #header {
 	background-image: url("images/subpage-head-border.png");
 	background-repeat: no-repeat;
-	background-size: 100% 140px;
+	background-size: 100% 100%;
 	margin-top: 20px;
 	margin-bottom: 30px;
-	height: 140px;
 }
 #branding {
 	padding: 5px 25px;
@@ -132,7 +131,7 @@ img {
 }
 #menu li {
 	display: inline-block;
-	padding-right: 20px;
+	padding-right: 28px;
 }
 #menu a {
 	color: #fff;
@@ -162,6 +161,36 @@ img {
 }
 #menu .menu-orange a:hover, #menu .menu-orange.current-menu-item a {
 	color: #ff5500;
+}
+
+/* home page */
+
+#home-header {
+	background-image: url("images/subpage-head-border.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+#home-header h1 {
+	font-family: 'maxine_scriptregular';
+	font-size: 3.5em;
+	font-weight: normal;
+	text-decoration: none;
+	position: relative;
+	top: 3px;
+	line-height: 1;
+	margin: 0 15px 10px 0;
+}
+#home-header h1 a {
+	color: #fff;
+}
+#home-header h1 a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+#home-header #site-description {
+	font-size: 1.6em;
 }
 
 
@@ -350,7 +379,7 @@ img {
 }
 input, select, textarea {
 	font-size: 1em;
-	background-color: #444;
+	background-color: #333;
 	color: #fff;
 	border-width: 0px;
 	padding: 5px;
@@ -363,10 +392,10 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 	font-size: 0.9em;
 	border-width: 2px;
 }
-.wpcf7-not-valid-tip {
-	font-size: 0.7px;
+span.wpcf7-not-valid-tip {
+	font-size: 0.75px;
 }
 .wpcf7 p {
-	font-size: 0.8em;
+	font-size: 0.75em;
 }
 
