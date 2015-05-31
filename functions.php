@@ -5,7 +5,7 @@ function evanhill_setup()
 load_theme_textdomain('evanhill', get_template_directory() . '/languages');
 add_theme_support('automatic-feed-links');
 add_theme_support('post-thumbnails');
-set_post_thumbnail_size( 768, 0, false ); // Change default post thumbnail size
+set_post_thumbnail_size( 966, 500, true ); // Change default post thumbnail size
 add_image_size( 'gallery-thumbnail', 300, 300, true ); // Add gallery thumbnail size
 global $content_width;
 if ( ! isset( $content_width ) ) $content_width = 640;
