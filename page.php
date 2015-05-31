@@ -4,7 +4,7 @@
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<?php if ( is_front_page() ) : ?>			    	
-			<div id = "homecarousel" class="carousel slide">
+			<div id = "homecarousel" class="carousel slide carousel-fade">
 				<ol class="carousel-indicators">
 					<?php
 					$posts_count = -1;
