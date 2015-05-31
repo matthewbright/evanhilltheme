@@ -23,7 +23,11 @@
 					    $featured_posts->the_post();
 					    ++$posts_count; ?>
 						<div class="item <?php if($posts_count == 0) { ?>active<?php } ?>">
-							<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('slider-post-thumbnail', array( 'class'	=> "slider-post-thumbnail img-responsive")); ?></a>
+							<a href="<?php the_permalink(); ?>"><?php 
+if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+	the_post_thumbnail();
+} 
+?></a>
 							<div class="carousel-caption">
 								<h2><?php the_title(); ?></h2>
 								<a href="<?php the_permalink(); ?>" rel="bookmark"><span class="tile-link"></span></a>
