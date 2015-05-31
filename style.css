@@ -81,6 +81,7 @@ img {
 	background-repeat: no-repeat;
 	background-size: 100% 140px;
 	margin-top: 20px;
+	margin-bottom: 30px;
 	height: 140px;
 }
 #branding {
@@ -238,10 +239,10 @@ img {
 	margin-bottom: 3px;
 }
 .cat-archive-container {
-	margin-top: 30px;
+	margin-top: 0px;
 }
 .cat-archive-container .gallery-item {
-	margin-top: 10px;
+	margin-top: 0;
 }
 
 
@@ -262,7 +263,7 @@ img {
 /* Posts */
 
 #show-header {
-	margin-top: 7px;
+	margin-top: 0;
 	margin-bottom: 22px;
 }
 .show-info {
